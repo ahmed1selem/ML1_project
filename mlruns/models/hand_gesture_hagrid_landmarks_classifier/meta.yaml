@@ -1,0 +1,8 @@
+aliases:
+  champion: '1'
+creation_timestamp: 1772253756123
+deployment_job_id: null
+deployment_job_state: null
+description: Best baseline model selected by validation macro-F1.
+last_updated_timestamp: 1772253756554
+name: hand_gesture_hagrid_landmarks_classifier

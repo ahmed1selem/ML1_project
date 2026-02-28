@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/ITI/ML1/fina_project/mlruns/539143045293365178/1e02f5da16c54d60b262653adb5d2572/artifacts
+end_time: 1772251731282
+entry_point_name: ''
+experiment_id: '539143045293365178'
+lifecycle_stage: active
+run_id: 1e02f5da16c54d60b262653adb5d2572
+run_name: knn__landmarks63_plus_engineered__stratified_80_20__seed42__hagrid_landmarks_v1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772251694063
+status: 3
+tags: []
+user_id: ahmed

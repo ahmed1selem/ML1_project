@@ -1,0 +1,15 @@
+creation_timestamp: 1772253756189
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1772253756189
+model_id: m-6bfcf595dc3c4c99b1338ff64c604994
+name: hand_gesture_hagrid_landmarks_classifier
+run_id: d162ccfbf98944f89423e1527743bc0e
+run_link: null
+source: models:/m-6bfcf595dc3c4c99b1338ff64c604994
+status: READY
+status_message: null
+storage_location: file:///e:/ITI/ML1/fina_project/mlruns/539143045293365178/models/m-6bfcf595dc3c4c99b1338ff64c604994/artifacts
+user_id: null
+version: 1

@@ -1,0 +1,10 @@
+artifact_location: file:///e:/ITI/ML1/fina_project/mlruns/539143045293365178/models/m-ffd686bc70344a599d5f03fef53f3b9e/artifacts
+creation_timestamp: 1772251725156
+experiment_id: '539143045293365178'
+last_updated_timestamp: 1772251730859
+model_id: m-ffd686bc70344a599d5f03fef53f3b9e
+model_type: null
+name: model
+source_run_id: 1e02f5da16c54d60b262653adb5d2572
+status: 2
+status_message: null

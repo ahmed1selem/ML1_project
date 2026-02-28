@@ -1,0 +1,2 @@
+model_key,model_name,run_id,run_name,model_uri,accuracy,precision_macro,recall_macro,f1_macro,cv_f1_macro,cv_f1_std,train_time_seconds
+XGB,XGBoost,d162ccfbf98944f89423e1527743bc0e,xgb__landmarks63_plus_engineered__stratified_80_20__seed42__hagrid_landmarks_v1,runs:/d162ccfbf98944f89423e1527743bc0e/model,0.9865628042843233,0.9863682577601762,0.9861743183459305,0.9862439206203862,0.9857406002688162,0.0009357536333780441,2015.32839179039

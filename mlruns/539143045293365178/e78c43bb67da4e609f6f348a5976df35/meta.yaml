@@ -1,5 +1,5 @@
 artifact_uri: file:///e:/ITI/ML1/fina_project/mlruns/539143045293365178/e78c43bb67da4e609f6f348a5976df35/artifacts
-end_time: null
+end_time: 1772250705869
 entry_point_name: ''
 experiment_id: '539143045293365178'
 lifecycle_stage: active
@@ -9,6 +9,6 @@ source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1772244499868
-status: 1
+status: 3
 tags: []
 user_id: ahmed

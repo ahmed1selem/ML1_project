@@ -1,0 +1,96 @@
+artifact_path: file:///e:/ITI/ML1/fina_project/mlruns/539143045293365178/models/m-6bfcf595dc3c4c99b1338ff64c604994/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.9.0
+model_id: m-6bfcf595dc3c4c99b1338ff64c604994
+model_size_bytes: 12195310
+model_uuid: m-6bfcf595dc3c4c99b1338ff64c604994
+prompts: null
+run_id: d162ccfbf98944f89423e1527743bc0e
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "float", "name": "x1", "required": true}, {"type": "float", "name":
+    "y1", "required": true}, {"type": "float", "name": "z1", "required": true}, {"type":
+    "float", "name": "x2", "required": true}, {"type": "float", "name": "y2", "required":
+    true}, {"type": "float", "name": "z2", "required": true}, {"type": "float", "name":
+    "x3", "required": true}, {"type": "float", "name": "y3", "required": true}, {"type":
+    "float", "name": "z3", "required": true}, {"type": "float", "name": "x4", "required":
+    true}, {"type": "float", "name": "y4", "required": true}, {"type": "float", "name":
+    "z4", "required": true}, {"type": "float", "name": "x5", "required": true}, {"type":
+    "float", "name": "y5", "required": true}, {"type": "float", "name": "z5", "required":
+    true}, {"type": "float", "name": "x6", "required": true}, {"type": "float", "name":
+    "y6", "required": true}, {"type": "float", "name": "z6", "required": true}, {"type":
+    "float", "name": "x7", "required": true}, {"type": "float", "name": "y7", "required":
+    true}, {"type": "float", "name": "z7", "required": true}, {"type": "float", "name":
+    "x8", "required": true}, {"type": "float", "name": "y8", "required": true}, {"type":
+    "float", "name": "z8", "required": true}, {"type": "float", "name": "x9", "required":
+    true}, {"type": "float", "name": "y9", "required": true}, {"type": "float", "name":
+    "z9", "required": true}, {"type": "float", "name": "x10", "required": true}, {"type":
+    "float", "name": "y10", "required": true}, {"type": "float", "name": "z10", "required":
+    true}, {"type": "float", "name": "x11", "required": true}, {"type": "float", "name":
+    "y11", "required": true}, {"type": "float", "name": "z11", "required": true},
+    {"type": "float", "name": "x12", "required": true}, {"type": "float", "name":
+    "y12", "required": true}, {"type": "float", "name": "z12", "required": true},
+    {"type": "float", "name": "x13", "required": true}, {"type": "float", "name":
+    "y13", "required": true}, {"type": "float", "name": "z13", "required": true},
+    {"type": "float", "name": "x14", "required": true}, {"type": "float", "name":
+    "y14", "required": true}, {"type": "float", "name": "z14", "required": true},
+    {"type": "float", "name": "x15", "required": true}, {"type": "float", "name":
+    "y15", "required": true}, {"type": "float", "name": "z15", "required": true},
+    {"type": "float", "name": "x16", "required": true}, {"type": "float", "name":
+    "y16", "required": true}, {"type": "float", "name": "z16", "required": true},
+    {"type": "float", "name": "x17", "required": true}, {"type": "float", "name":
+    "y17", "required": true}, {"type": "float", "name": "z17", "required": true},
+    {"type": "float", "name": "x18", "required": true}, {"type": "float", "name":
+    "y18", "required": true}, {"type": "float", "name": "z18", "required": true},
+    {"type": "float", "name": "x19", "required": true}, {"type": "float", "name":
+    "y19", "required": true}, {"type": "float", "name": "z19", "required": true},
+    {"type": "float", "name": "x20", "required": true}, {"type": "float", "name":
+    "y20", "required": true}, {"type": "float", "name": "z20", "required": true},
+    {"type": "float", "name": "x21", "required": true}, {"type": "float", "name":
+    "y21", "required": true}, {"type": "float", "name": "z21", "required": true},
+    {"type": "float", "name": "dist_thumb_index", "required": true}, {"type": "float",
+    "name": "dist_thumb_middle", "required": true}, {"type": "float", "name": "dist_thumb_ring",
+    "required": true}, {"type": "float", "name": "dist_thumb_pinky", "required": true},
+    {"type": "float", "name": "dist_index_middle", "required": true}, {"type": "float",
+    "name": "dist_index_ring", "required": true}, {"type": "float", "name": "dist_index_pinky",
+    "required": true}, {"type": "float", "name": "dist_middle_ring", "required": true},
+    {"type": "float", "name": "dist_middle_pinky", "required": true}, {"type": "float",
+    "name": "dist_ring_pinky", "required": true}, {"type": "float", "name": "len_thumb",
+    "required": true}, {"type": "float", "name": "len_index", "required": true}, {"type":
+    "float", "name": "len_middle", "required": true}, {"type": "float", "name": "len_ring",
+    "required": true}, {"type": "float", "name": "len_pinky", "required": true}, {"type":
+    "float", "name": "ratio_thumb_index", "required": true}, {"type": "float", "name":
+    "ratio_thumb_middle", "required": true}, {"type": "float", "name": "ratio_thumb_ring",
+    "required": true}, {"type": "float", "name": "ratio_thumb_pinky", "required":
+    true}, {"type": "float", "name": "ratio_index_middle", "required": true}, {"type":
+    "float", "name": "ratio_index_ring", "required": true}, {"type": "float", "name":
+    "ratio_index_pinky", "required": true}, {"type": "float", "name": "ratio_middle_ring",
+    "required": true}, {"type": "float", "name": "ratio_middle_pinky", "required":
+    true}, {"type": "float", "name": "ratio_ring_pinky", "required": true}, {"type":
+    "float", "name": "curl_thumb", "required": true}, {"type": "float", "name": "curl_index",
+    "required": true}, {"type": "float", "name": "curl_middle", "required": true},
+    {"type": "float", "name": "curl_ring", "required": true}, {"type": "float", "name":
+    "curl_pinky", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-02-28 04:42:27.380701'

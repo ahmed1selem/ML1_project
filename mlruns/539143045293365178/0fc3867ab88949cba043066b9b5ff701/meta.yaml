@@ -1,0 +1,14 @@
+artifact_uri: file:///e:/ITI/ML1/fina_project/mlruns/539143045293365178/0fc3867ab88949cba043066b9b5ff701/artifacts
+end_time: 1772253756592
+entry_point_name: ''
+experiment_id: '539143045293365178'
+lifecycle_stage: active
+run_id: 0fc3867ab88949cba043066b9b5ff701
+run_name: best_model_registration__hagrid_landmarks__hagrid_landmarks_v1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1772253755854
+status: 3
+tags: []
+user_id: ahmed
