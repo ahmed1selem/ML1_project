@@ -4,7 +4,7 @@ from collections import Counter, deque
 
 import cv2
 
-from camera_inference_helper import (
+from helper import (
     base_feature_columns,
     build_model_input,
     load_pipeline,
@@ -19,7 +19,7 @@ def create_gesture_video(
     scaler_path="scaler.pkl",
     label_encoder_path="label_encoder.pkl",
     camera_index=0,
-    output_path="live_frame_by_frame_output.mp4",
+    output_path="output.mp4",
     min_det=0.5,
     min_track=0.5,
     smooth_window=3,
@@ -114,7 +114,7 @@ def parse_args():
     p.add_argument("--scaler", type=str, default="scaler.pkl")
     p.add_argument("--label-encoder", type=str, default="label_encoder.pkl")
     p.add_argument("--camera", type=int, default=0)
-    p.add_argument("--output", type=str, default="live_frame_by_frame_output.mp4")
+    p.add_argument("--output", type=str, default="output.mp4")
     p.add_argument("--min-det", type=float, default=0.5)
     p.add_argument("--min-track", type=float, default=0.5)
     p.add_argument("--smooth-window", type=int, default=3)
