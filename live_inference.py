@@ -4,7 +4,7 @@ from collections import Counter, deque
 
 import cv2
 
-from camera_inference_helper import (
+from helper import (
     base_feature_columns,
     build_model_input,
     load_pipeline,
