@@ -4,9 +4,9 @@ Project: E:\ITI\ML1\fina_project
 Scope: UI visibility of experiments, tags, run logs, and registered models. No retraining. No source-code changes.
 
 ## Executive Summary
-- The active MLflow UI on port `5000` is serving the `fina_project` store: `file:///E:/ITI/ML1/fina_project/mlruns`.
+- The active MLflow UI on port `5000` .
 - In this store, tags and model logs are present, but not all are visible in list views by default.
-- "Other logs/models" are in a different tracking store: `file:///E:/ITI/ML1/project/mlruns`.
+- "Other logs/models" are in a different tracking store:.
 - This is a data-store separation issue, not a training or logging failure.
 
 ## Evidence (Screenshots)
