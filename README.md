@@ -1,4 +1,4 @@
-# Hand Gesture Classification Project
+﻿# Hand Gesture Classification Project
 
 This project trains a hand-gesture classifier from landmark data and runs live webcam inference to generate a labeled output video.
 
@@ -32,20 +32,20 @@ pip install numpy pandas matplotlib seaborn scikit-learn xgboost opencv-python m
 Run:
 
 ```bash
-python live_inference.py --camera 0 --output live_frame_by_frame_output.mp4
+python live_inference.py 
 ```
 
 Useful options:
 
 ```bash
-python live_inference.py --help
+python live_inference.py
 ```
 
 Examples:
 
 ```bash
-python live_inference.py --max-seconds 10 --no-preview
-python live_inference.py --camera 1 --smooth-window 5 --output output.mp4
+python live_inference.py 
+python live_inference.py 
 ```
 
 ## Important Note
@@ -57,11 +57,3 @@ If you run inference as-is, make sure one of these is true:
 1. You have a file named `camera_inference_helper.py` with the same helper functions.
 2. You update the import in `live_inference.py` to use `helper`.
 
-## Troubleshooting
-
-- `Missing required file: best_model.pkl`:
-  Run the notebook first to generate model artifacts.
-- `Could not open camera.`:
-  Check camera index (`--camera 0`, `--camera 1`, ...), and close other apps using the camera.
-- Poor prediction stability:
-  Increase `--smooth-window` to reduce per-frame jitter.
