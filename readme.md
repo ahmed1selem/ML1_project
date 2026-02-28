@@ -1,7 +1,5 @@
 ﻿# MLflow UI Visibility Audit Report
-Date: 2026-02-28
-Project: E:\ITI\ML1\fina_project
-Scope: UI visibility of experiments, tags, run logs, and registered models. No retraining. No source-code changes.
+UI visibility of experiments, tags, run logs, and registered models
 
 ## Executive Summary
 - The active MLflow UI on port `5000` .
@@ -20,10 +18,6 @@ Scope: UI visibility of experiments, tags, run logs, and registered models. No r
    - ![Models](./reports/mlflow_models.png)
 5. Model version page showing version tags:
    - ![Model Version Tags](./reports/mlflow_model_version1.png)
-6. Experiments in older `project` store (contains the other logs):
-   - ![Old Store Experiments](./reports/mlflow_old_experiments.png)
-7. Runs in older `project_run` experiment:
-   - ![Old Store Runs](./reports/mlflow_old_runs.png)
 
 ## What Is Present in `fina_project` Store
 - Experiment: `hand_gesture/hagrid_landmarks/baselines`
@@ -42,16 +36,16 @@ Scope: UI visibility of experiments, tags, run logs, and registered models. No r
 ## Why Tags / Other Logs Were Not Obvious in UI
 - MLflow list pages do not show every tag by default.
 - Model-level `tags` are empty in this run set; useful metadata was logged at **model version tags** level.
-- Older experiments (`project_run`, `smoke_test`) were logged to a separate store (`E:/ITI/ML1/project/mlruns`), so they do not appear in the `fina_project` UI instance.
+
 
 ## Non-Destructive Recommendations
 1. Keep using explicit backend URI when launching UI:
-   - `mlflow ui --backend-store-uri "file:///E:/ITI/ML1/fina_project/mlruns" --port 5000`
+   - `mlflow ui --backend-store-uri "/mlruns" --port 5000`
 2. In run table, add columns for:
    - `tags.stage`, `tags.dataset_version`, `tags.model_name`
 3. In model pages, inspect **version tags** (not only top-level model tags).
 4. If you want a single pane of glass, standardize on one store path moving forward.
 
 ## Deliverables
-- Report file: `reports/mlflow_ui_audit_2026-02-28/MLFLOW_UI_AUDIT_REPORT.md`
-- Screenshot bundle: `reports/mlflow_ui_audit_2026-02-28/*.png`
+- Report file: `readme.md`file which is the report
+- Screenshot bundle: `reports/*.png`
