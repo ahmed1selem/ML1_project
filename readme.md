@@ -38,7 +38,7 @@ UI visibility of experiments, tags, run logs, and registered models
 - Model-level `tags` are empty in this run set; useful metadata was logged at **model version tags** level.
 
 
-## Non-Destructive Recommendations
+## how to run
 1. use explicit backend URI when launching UI:
    - `mlflow ui --backend-store-uri "/mlruns" --port 5000`
 2. In run table, add columns for:
