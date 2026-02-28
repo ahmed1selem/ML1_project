@@ -1,0 +1,33 @@
+{
+  "dataset_name": "hagrid_landmarks_v1",
+  "logged_at_utc": "2026-02-28T02:08:19.343991+00:00",
+  "num_rows": 25675,
+  "num_columns": 64,
+  "target_column": "label",
+  "missing_values_total": 0,
+  "duplicate_rows": 0,
+  "class_distribution": {
+    "three2": 1653,
+    "palm": 1649,
+    "four": 1634,
+    "ok": 1592,
+    "stop_inverted": 1567,
+    "call": 1506,
+    "peace_inverted": 1497,
+    "stop": 1482,
+    "rock": 1458,
+    "three": 1456,
+    "peace": 1441,
+    "like": 1436,
+    "two_up_inverted": 1371,
+    "two_up": 1343,
+    "dislike": 1295,
+    "one": 1263,
+    "mute": 1087,
+    "fist": 945
+  },
+  "dataset_fingerprint_sha256": "0a3457eac877029a7097bd722230eb451083edf20502eda9e2dc45c44a5fd753",
+  "num_classes": "18",
+  "num_base_features": "63",
+  "num_engineered_features": "30"
+}
