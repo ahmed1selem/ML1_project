@@ -7,7 +7,7 @@ UI visibility of experiments, tags, run logs, and registered models
 - "Other logs/models" are in a different tracking store:.
 - This is a data-store separation issue, not a training or logging failure.
 
-## Evidence (Screenshots)
+## (Screenshots)
 1. Experiments in active store (`fina_project`):
    - ![Experiments](./reports/mlflow_experiments.png)
 2. Baselines experiment run list (7 runs):
@@ -19,7 +19,7 @@ UI visibility of experiments, tags, run logs, and registered models
 5. Model version page showing version tags:
    - ![Model Version Tags](./reports/mlflow_model_version1.png)
 
-## What Is Present in `fina_project` Store
+## report
 - Experiment: `hand_gesture/hagrid_landmarks/baselines`
 - Run count: 7
 - Run-level tags exist (examples):
@@ -39,7 +39,7 @@ UI visibility of experiments, tags, run logs, and registered models
 
 
 ## Non-Destructive Recommendations
-1. Keep using explicit backend URI when launching UI:
+1. use explicit backend URI when launching UI:
    - `mlflow ui --backend-store-uri "/mlruns" --port 5000`
 2. In run table, add columns for:
    - `tags.stage`, `tags.dataset_version`, `tags.model_name`
