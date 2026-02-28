@@ -1,59 +1,18 @@
-﻿# Hand Gesture Classification Project
+﻿# Hand Gesture Classification
 
-This project trains a hand-gesture classifier from landmark data and runs live webcam inference to generate a labeled output video.
+## Files
 
-## Project Structure
-
-- `hand_gesture_classification.ipynb`: training and model selection notebook.
-- `live_inference.py`: live webcam inference script (writes annotated video).
-- `helper.py`: model/camera/preprocessing helper utilities.
+- `hand_gesture_classification.ipynb`: training notebook.
 - `hand_landmarks_data.csv`: training dataset.
-- `best_model.pkl`, `scaler.pkl`, `label_encoder.pkl`: saved training artifacts.
-- `output.mp4`: sample generated output video.
+- `best_model.pkl`, `scaler.pkl`, `label_encoder.pkl`: saved artifacts.
 
 ## Requirements
 
-Use Python 3.9+ and install:
-
 ```bash
-pip install numpy pandas matplotlib seaborn scikit-learn xgboost opencv-python mediapipe protobuf
+pip install numpy pandas scipy scikit-learn matplotlib seaborn xgboost
 ```
 
 ## Training
 
-1. Open and run `hand_gesture_classification.ipynb`.
-2. Confirm these files are generated/updated:
-   - `best_model.pkl`
-   - `scaler.pkl`
-   - `label_encoder.pkl`
-
-## Live Inference
-
-Run:
-
-```bash
-python live_inference.py 
-```
-
-Useful options:
-
-```bash
-python live_inference.py
-```
-
-Examples:
-
-```bash
-python live_inference.py 
-python live_inference.py 
-```
-
-## Important Note
-
-`live_inference.py` currently imports from `camera_inference_helper`, while this repo currently contains `helper.py`.
-
-If you run inference as-is, make sure one of these is true:
-
-1. You have a file named `camera_inference_helper.py` with the same helper functions.
-2. You update the import in `live_inference.py` to use `helper`.
-
+1. Open `hand_gesture_classification.ipynb`.
+2. Run all cells to train and save artifacts.
