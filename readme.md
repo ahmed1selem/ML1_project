@@ -11,19 +11,19 @@ Scope: UI visibility of experiments, tags, run logs, and registered models. No r
 
 ## Evidence (Screenshots)
 1. Experiments in active store (`fina_project`):
-   - ![Experiments](./report/mlflow_experiments.png)
+   - ![Experiments](./reports/mlflow_experiments.png)
 2. Baselines experiment run list (7 runs):
-   - ![Baselines Runs](./report/mlflow_runs_baselines.png)
+   - ![Baselines Runs](./reports/mlflow_runs_baselines.png)
 3. Run detail page showing tags + registered model link:
-   - ![Run Detail Tags](./report/mlflow_run_detail_tags.png)
+   - ![Run Detail Tags](./reports/mlflow_run_detail_tags.png)
 4. Registered Models list in active store:
-   - ![Models](./report/mlflow_models.png)
+   - ![Models](./reports/mlflow_models.png)
 5. Model version page showing version tags:
-   - ![Model Version Tags](./report/mlflow_model_version1.png)
+   - ![Model Version Tags](./reports/mlflow_model_version1.png)
 6. Experiments in older `project` store (contains the other logs):
-   - ![Old Store Experiments](./report/mlflow_old_experiments.png)
+   - ![Old Store Experiments](./reports/mlflow_old_experiments.png)
 7. Runs in older `project_run` experiment:
-   - ![Old Store Runs](./report/mlflow_old_runs.png)
+   - ![Old Store Runs](./reports/mlflow_old_runs.png)
 
 ## What Is Present in `fina_project` Store
 - Experiment: `hand_gesture/hagrid_landmarks/baselines`
